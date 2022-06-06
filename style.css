@@ -1,0 +1,38 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: skyblue;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    color: red;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    padding: 15px;
+    background: aquamarine;
+    box-shadow: rgb(93, 66, 06) 0px 16px 26px -12px;
+}
+
+input {
+    outline: none;
+    border: none;
+    background: white;
+    padding: 5px;
+}
+
+button {
+    background-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+    outline: 2px;
+}
